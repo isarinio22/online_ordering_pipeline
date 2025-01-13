@@ -1,0 +1,27 @@
+{
+    "website_url": "https://www.rami-levy.co.il/he",
+    "selectors": {
+        "login_button": "//div[normalize-space(text())='התחברות']",
+        "email_field": "#email",
+        "password_field": "#password",
+        "submit_login": "button[aria-label='כניסה']",
+       "my_cart_button": "//span[normalize-space(text())='הרשימות שלי']",
+       "weekly_purchase_button": "//div[span[text()='עגבניה']]",
+       "add_products_to_cart_button": "//span[normalize-space(text())='הוספת מוצרים לסל']",
+       "close_popup_button": "div#close-popup",
+
+
+        "click_on_save": "button[aria-label='שמור']",
+        "cvv_input_field": "input#v-card-cvv[type='tel'][data-card-field]",
+        "to_payment_button": "//div[@role='button' and normalize-space(text())='לתשלום']",
+        "checkout_button": "//span[normalize-space(text())='לקופה']",
+        "payment_button": "//div[span[text()='תשלום']]",
+        "skip_button": "//button[@aria-label='דלג/י']",
+        "choose_credit_card_button": "//div[@id='choosePaymentCard' and @role='button' and @aria-label='האשראי שלי']",
+        "confirm_credit_card_button": "//button[@class='focus-item online-full-btn w-100 py-3 d-block' and span[text()='תשלום בכרטיס זה']]"
+
+
+
+      
+    }
+}
